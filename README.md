@@ -20,6 +20,7 @@ package main
 
 import (
     "fmt"
+    "encoding/hex"
 
     "github.com/deatil/go-crc8/crc8"
 )
