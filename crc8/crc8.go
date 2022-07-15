@@ -24,7 +24,7 @@ type Params struct {
     XorOut uint8
 }
 
-// crc8 类型列表
+// 类型列表
 var (
     // "CRC-8" x8 + x2 + x + 1
     CRC8          = Params{0x07, 0x00, false, false, 0x00}
